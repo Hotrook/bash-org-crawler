@@ -1,7 +1,7 @@
 package data
 
 class BashPost(
-                val id: Int,
-                val points: Int,
+                val id: Long,
+                val points: Long,
                 val content: String
               )

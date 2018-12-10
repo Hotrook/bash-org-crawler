@@ -32,10 +32,10 @@ class BashParser {
   }
 
   private def parseId(doc: JsoupBrowser.JsoupDocument) = {
-    (doc >> text(IdCss)).substring(1).toInt
+    (doc >> text(IdCss)).substring(1).toLong
   }
 
-  private def parsePoints(doc: JsoupBrowser.JsoupDocument): Int = {
-    (doc >> text(PointsCss)).toInt
+  private def parsePoints(doc: JsoupBrowser.JsoupDocument) = {
+    (doc >> text(PointsCss)).toLong
   }
 }
