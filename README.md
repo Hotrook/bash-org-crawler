@@ -1,4 +1,4 @@
-# Running Bash Crawler
+# Running Bash Crawler [![Maintainability](https://api.codeclimate.com/v1/badges/7020ffe05aa620e55e53/maintainability)](https://codeclimate.com/github/Hotrook/bash-org-crawler/maintainability)
 
 You can run test using following command:
 ```console
